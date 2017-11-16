@@ -1,4 +1,4 @@
-board = [" "," "," "," "," "," "," "," "," "]
+
 counter = 0
 
 def current_player(board)
@@ -6,10 +6,7 @@ def current_player(board)
     "X"
   elsif turn_count.Odd
     "O"
-end
-
-
-
+  end
 end
 
 def turn_count(board)
@@ -17,8 +14,5 @@ def turn_count(board)
   board.each do |board|
     if board == "X" || board == "O"
       counter += 1
-
-
-  end
-
+    end
 end
