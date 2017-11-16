@@ -4,9 +4,9 @@ def current_player(count)
   elsif count.Odd
     "O"
 end
-    
-    
-  
+
+
+
 end
 
 def turn_count(board)
@@ -14,8 +14,8 @@ def turn_count(board)
   board.each do |board|
     if board == "X" || board == "O"
       count += 1
-    
-    
+
+
   end
-  
+
 end
