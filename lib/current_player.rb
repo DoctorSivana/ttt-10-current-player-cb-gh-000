@@ -1,7 +1,7 @@
-def current_player(count)
-  if count.even
+def current_player(board)
+  if turn_count.Even
     "X"
-  elsif count.Odd
+  elsif turn_count.Odd
     "O"
 end
 
